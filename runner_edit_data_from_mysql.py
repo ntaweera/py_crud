@@ -2,7 +2,7 @@ import datetime
 import pymysql.cursors
 conn = pymysql.connect(host='localhost',
                        user='root',
-                       password='taweerat',
+                       password='your_database_password',
                        db='race_runner',
                        cursorclass=pymysql.cursors.DictCursor)
 
